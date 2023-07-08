@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: oba-app
+
+  jpa:
+    hibernate:
+      ddl-auto: update # create, create-drop, update, validate, none
+    generate-ddl: true
+    show-sql: false
+
+  datasource:
+    initialization-mode: always
+    platform: 'postgres'
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    url: ${DB_URL}
+
+server:
+  port: 8080
+
+swagger:
+  enabled: true
+  host: ${SWAGGER_HOST}
+  path:
+
+
+security:
+  jwtSecret: ${JWT_SECRET}

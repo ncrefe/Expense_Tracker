@@ -1,0 +1,5 @@
+# Online_Budget_Application
+
+## Environment Variables:
+
+DB_PASSWORD=1234;DB_URL=jdbc:postgresql://localhost:5432/oba;DB_USERNAME=postgres;JWT_SECRET=eyJhbGciOiJIUzI1NiJ9.eyJSb2xlIjoiQWRtaW4iLCJJc3N1ZXIiOiJJc3N1ZXIiLCJVc2VybmFtZSI6Im9iYSJ9.1weeAKqhIasYUG72aNdZU0TeTYfcZiUR6kGJbTb0Gjw;SWAGGER_HOST=localhost:8080
